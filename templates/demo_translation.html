@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Language Translation Output</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2em;
+            background-color: #f4f4f4;
+        }
+        .section {
+            background: white;
+            padding: 1em 2em;
+            margin-bottom: 1.5em;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+        }
+        p {
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ollama Translation Demo</h1>
+    <div class="section">
+        <h2>Spanish Translation</h2>
+        <p>{{ TRANSLATE_SPANISH | safe }}</p>
+    </div>
+    <div class="section">
+        <h2>Latin Translation</h2>
+        <p>{{ TRANSLATE_LATIN | safe }}</p>
+    </div>
+    <div class="section">
+        <h2>French Translation</h2>
+        <p>{{ TRANSLATE_FRENCH | safe }}</p>
+    </div>
+</body>
+</html>
