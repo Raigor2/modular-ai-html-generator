@@ -34,7 +34,7 @@ python main.py
 
 ```bash
 git clone [https://github.com/yourusername/ollama-html-mvp.git](https://github.com/Raigor2/modular-ai-html-generator)
-cd ollama-html-mvp
+cd modular-ai-html-generator
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
