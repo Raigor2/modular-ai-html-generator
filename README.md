@@ -33,7 +33,7 @@ python main.py
 ## 🚀 To Run
 
 ```bash
-git clone https://github.com/yourusername/ollama-html-mvp.git
+git clone [https://github.com/yourusername/ollama-html-mvp.git](https://github.com/Raigor2/modular-ai-html-generator)
 cd ollama-html-mvp
 python3 -m venv venv
 source venv/bin/activate
